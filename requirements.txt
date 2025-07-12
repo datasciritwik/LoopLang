@@ -1,0 +1,10 @@
+crawl4ai
+ddgs
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langgraph
+python-dotenv
+requests
+tqdm
