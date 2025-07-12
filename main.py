@@ -612,11 +612,11 @@ async def main():
                 for i, res in enumerate(result.current_results[:3], 1):
                     print(f"{i}. {res.get('title', 'No title')}")
                     if res.get('url'):
-                        print(f"   URL: {res.get('url')}")
+                        print(f"🔗 URL: {res.get('url')}")
                     if res.get('emails'):
-                        print(f"   Emails: {', '.join(res.get('emails'))}")
+                        print(f"📨 Emails: {', '.join(res.get('emails'))}")
                     if res.get('description'):
-                        print(f"   Description: {res.get('description')[:100]}...")
+                        print(f"🗒️ Description: {res.get('description')[:100]}...")
                     print()
             
         except Exception as e:
